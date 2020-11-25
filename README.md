@@ -6,13 +6,15 @@ Koodiesimerkkejä liittyen Cisco Studio puheeseen "Hypestä käytäntöön: Mit�
 
 ---
 
-<img align="left" src="./images/minna.png">
+<img align="right" src="./images/minna.png">
 
 ## Minnan päivä
-Puheessa kuulimme kuinka Minna, Ciscolan kaupungin IT johtaja, hyödyntää erilaisten järjestelmien rajapintoja kustomoidun sovelluksen muodossa.
+Puheessa kuulimme kuinka Minna, Ciscolan kaupungin IT johtaja, hyödyntää erilaisten järjestelmien rajapintoja kustomoidun sovelluksen muodossa. Näin Minnan tiimi pystyy korreloimaan tietoa eri järjestelmistä, saamaan hälytyksiä ja tekemään muutoksia, kaikki tämä ilman tarvetta hyppiä dashboardista toiseen.
 
 **[Katso esimerkkejä kuinka Ciscon järjestelmien rajapinnat toimivat!](./minna)**
 
+
+<img align="right" src="./images/matti.png">
 
 ## Matin päivä
 
@@ -20,6 +22,8 @@ Puheessa oli mukana myös Matti, joka ajoi start uppinsa sovellusta Ciscon reiti
 
 **[Katso esimerkkejä kuinka Ciscon verkkolaitteissa voi ajaa omaa sovellusta, sekä kuinka Webexin rajapinnat toimivat](./matti)**
 
+
+<img align="right" src="./images/ella.png">
 
 ## Ellan päivä
 
