@@ -42,4 +42,5 @@ Puheen lopussa Ella ja Minna käyvät Ciscolan kaupassa, joka tarjoaa monsterin 
 
 ## Yhteystiedot
 Juulia Santala, jusantal@cisco.com
+
 Haluatko jutella kuinka voisit hyödyntää Cisco ratkaisujesi ohjelmoitavuutta? Laita viestiä niin ideoidaan yhdessä!
