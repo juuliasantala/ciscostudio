@@ -20,7 +20,9 @@ Tarvitset tätä varten julkisen osoitteen, jossa vastaanotat pilvestä lähetet
 
 [Esimerkkikoodina ohessa](./lokaatio_webhook.py) on pythonilla toteutettu hyvin yksinkertainen flask frameworkia hyödyntävä koodi. Vastaanotamme tietoa valitussa localhost portissa ngrokin avustuksella, ja tulostamme saamamme tiedon. Tästä seuraava askel olisi valita, minkä osan saamastasi datasta haluat hyödyntää sovelluksessasi, ja lähteä parsimaan ja luomaan logiikkaa tuon tiedon ympärille.
 
-Kunhan olet asentanut Flask-kirjaston Python virtuaaliympäristöösi, Flask sovellus ajetaan komentoriviltä seuraavasti:
+Huomaa että ensimmäisellä kerralla kun Meraki pilvi muodostaa yhteyden määrittelemäsi osoitteen kanssa, kysyy se sovellukseltasi organisaatiosi validiointi koodia. Siksi se tarvitsee määrittää sovellukseesi, ja tälle on paikka esimerkkikoodimme rivillä 9. Sijoita tähän Meraki dashboardin tarjoama validator-koodi.
+
+Kun olet asentanut Flask-kirjaston Python virtuaaliympäristöösi, Flask sovellus ajetaan komentoriviltä seuraavasti:
 ```
 export FLASK_APP=<tiedoston_nimi.py>
 flask run -p <haluamasi portti>
