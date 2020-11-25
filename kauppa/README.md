@@ -4,5 +4,6 @@ Puheen lopussa Ella ja Minna käyvät Ciscolan kaupassa, joka tarjoaa monsterin 
 
 ---
 
-## TBD
-TBD
+## Mistä elementeistä Ciscolan kaupan fiktiivinen monsteripeli koostuu?
+
+![Sovelluksen elementit](./meraki_location.png)
