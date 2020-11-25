@@ -6,9 +6,9 @@ Koodiesimerkkejä liittyen Cisco Studio puheeseen "Hypestä käytäntöön: Mit�
 
 ---
 
-## Minnan päivä
+<img align="left" src="./images/minna.png">
 
-<span style="display:block;float:right">![Minna](./images/minna.png)</span>
+## Minnan päivä
 Puheessa kuulimme kuinka Minna, Ciscolan kaupungin IT johtaja, hyödyntää erilaisten järjestelmien rajapintoja kustomoidun sovelluksen muodossa.
 
 **[Katso esimerkkejä kuinka Ciscon järjestelmien rajapinnat toimivat!](./minna)**
