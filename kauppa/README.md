@@ -12,7 +12,11 @@ Päätelaitteen sijainnista saadaan lokaatiotietoa Meraki tukiaseman kautta. Tä
 
 ## Miten Merakin lokaatiotieto saadaan omaan sovellukseen?
 
-Merakin lokaatiotieto voidaan tilata helposti omalta Meraki dashboardiltasi. Tarvitset tätä varten julkisen osoitteen, jossa vastaanotat pilvestä lähetettyä tietoa. Testailumuodossa voit käyttää esimerkiksi [ngrok-työkalua](https://ngrok.com/), joka muodostaa tunnelin ja ohjaa liikenteen määrittelemääsi localhost porttiin.
+Merakin lokaatiotieto voidaan tilata helposti omalta Meraki dashboardiltasi (Network-Wide -> Configure -> General -> scrollaa kohtaan "Location and scanning").
+
+![location and scanning](./webhook_dashboard.png)
+
+Tarvitset tätä varten julkisen osoitteen, jossa vastaanotat pilvestä lähetettyä tietoa. Testailumuodossa voit käyttää esimerkiksi [ngrok-työkalua](https://ngrok.com/), joka muodostaa tunnelin ja ohjaa liikenteen määrittelemääsi localhost porttiin.
 
 Esimerkkikoodina ohessa on pythonilla toteutettu flask frameworkia hyödyntävä koodi. Se toivottavasti antaa ideaa, miten lokaatiotietoa voidaan ottaa talteen. Tätä voi sitten soveltaa juuri sinun käytössäsi olevaan kieleen ja tarkoitukseen.
 
@@ -22,6 +26,8 @@ Haluatko oppia tarkemmin itse lokaatioanalytiikan käytöstä? Luo itsellesi ilm
 
 Aivan oikein, lokaatioanalytiikka ei ole ainoa asia mitä voit hyödyntää Merakin avoimien rajapintojen kautta. Meraki tarjoaa laajan skaalan erilaisia rajapintoja, ja paras paikka oppia lisää näistä onkin **[meraki.io](https://meraki.io)**!
 
-Yleisesti, jotta voit käyttää Merakin rajapintoja, tarvitsee sinun
+Lokaatiotiedon lisäksi voit esimerkiksi tilata webhookilla alert-tietoja järjestelmästä. Kurkkaa tähän ohjeet [dokumentaatiosta](https://developer.cisco.com/meraki/webhooks/#!introduction/overview)
+
+Voimme myös tehdä laajasti erilaisia rajapintakutsuja, kuten kysellä verkkolaitteiden tilaa tai konfiguroida langatonta verkkoa. Yleisesti, jotta voit käyttää näitä Merakin rajapintoja, tarvitsee sinun
 1. enabloida rajapinnat Merakin dashboardilta
 2. luoda itsellesi API avain, jolla tunnistaudut rajapintakutsuja tehdessäsi
