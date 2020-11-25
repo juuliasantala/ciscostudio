@@ -1,6 +1,9 @@
 # Cisco Studio
 Koodiesimerkkejä liittyen Cisco Studio puheeseen "Hypestä käytäntöön: Mitä ohjelmoitavuus voi antaa juuri sinun organisaatiollesi?"
 
+![Virtasten käyttötapaukset](./images/virtaset.png)
+
+
 ---
 
 ## Minnan päivä
