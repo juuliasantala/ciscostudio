@@ -15,7 +15,7 @@ Hyödyntäen avoimia rajapintoja, tuomme tietoa yhteen käyttöliittymään kaik
 [DevNet](https://developer.cisco.com) tarjoaa kattavasti dokumentaatiota kaikkien Cisco ratkaisujen ohjelmoitavuudesta. Tässä kuitenkin tarkemmat linkit tässä esimerkissä mainittujen Cisco ratkaisujen rajapintojen dokumentaatioon:
 - [Cisco DNA Center](https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview)
 - [Cisco SD-WAN](https://developer.cisco.com/docs/sdwan/#!introduction/cisco-sd-wan-vmanage-api)
-- [Cisco APIC](https://developer.cisco.com/docs/aci/#!introduction)
+- [Cisco APIC & ACI](https://developer.cisco.com/docs/aci/#!introduction)
 - [Cisco SecureX](https://developer.cisco.com/site/security/)
 
 ## Esimerkki kuinkaa DNA Centerin rajapintojen kanssa voidaan kommunikoida
