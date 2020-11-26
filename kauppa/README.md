@@ -31,7 +31,7 @@ Lisätietoa flaskin käytöstä saat [dokumentaatiosta](https://flask.palletspro
 
 Haluatko oppia tarkemmin itse lokaatioanalytiikan käytöstä? Luo itsellesi ilmainen [DevNet-tunnus](https://developer.cisco.com), jonka jälkeen pääset käyttämään DevNetin ilmaisia opiskelumateriaaleja. Meraki lokaatioanalytiikalle löytyy oma [learning lab](https://learninglabs.cisco.com/lab/meraki-03-location-scanning-python/step/1)!
 
-## Mitä muuta voin koodataa Merakin kanssa?
+## Mitä muuta voin koodata Merakin kanssa?
 
 Aivan oikein, lokaatioanalytiikka ei ole ainoa asia mitä voit hyödyntää Merakin avoimien rajapintojen kautta. Meraki tarjoaa laajan skaalan erilaisia rajapintoja, ja paras paikka oppia lisää näistä onkin **[meraki.io](https://meraki.io)**!
 

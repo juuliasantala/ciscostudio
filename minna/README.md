@@ -20,8 +20,19 @@ Hyödyntäen avoimia rajapintoja, tuomme tietoa yhteen käyttöliittymään kaik
 
 ## Esimerkki kuinkaa DNA Centerin rajapintojen kanssa voidaan kommunikoida
 
-Tässä esimerkki yhdestä listassa olevasta ratkaisusta, DNA Centeristä. Huomaa että vaikka esimerkkikoodi on kirjoitettu Pythonilla, eivät rajapinnat ole riippuvaisia käytettävästä kielestä, vaan tätä voidaan soveltaa myös muihin kieliin.
+[Tässä esimerkki koodi](./dnacenter_apis.py) yhdestä listassa olevasta ratkaisusta, DNA Centeristä. Kyseisessa yksinkertaisessa Python koodissa haemme authentication tokenin, jonka jälkeen pystymme hakemaan tiedon verkon kaikista laitteista. Lopuksi tulostamme kustakin laitteesta mallin ja hostnamen. Huomaa että vaikka esimerkkikoodimme on kirjoitettu Pythonilla, eivät rajapinnat ole riippuvaisia käytettävästä kielestä, vaan tätä voidaan soveltaa myös muihin kieliin.
+
+DNA Center on kontrolleri lähiverkkojen hallintaan, automatisointiin ja näkyvyyden tuomiseen analytiikan avulla.
+DNA Center tarjoaa kattavan määrän REST rajapintoja, ja uusissa softaversioissa rajapintojen määrää täydennetään. Dokumentaatiota voidaan lukea joko [DevNetin sivuilta](https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview) tai suoraan omasta DNA Centerin käyttöliittymästä (Platform -> Developer Toolkit -> APIs).
+
+![DNA Center API dokumentaatio](dnac_api_documentation.png)
 
 DNA Center vaatii rajapintojen käytössä authentication tokenin. Tämän hakemiseksi DNA Centeristä on oma rajapintakutsunsa, joka vaatii Base64 encodatun DNA Center käyttäjänimen ja salasanan. Näetkin tämän ensimmäisenä kohtana esimerkkikoodissa. Sen jälkeen voimme hyödyntää saamaamme tokenia muiden rajapintakutsujen mukana.
 
 ![Authentication API](./authentication_api.png)
+
+## Missä voin oppia lisää?
+
+DevNet tarjoaa learning labseja, joiden kautta voit oppia lisää aiheesta. Luo itsellesi ilmainen [DevNet-tunnus](https://developer.cisco.com), jonka jälkeen pääset käyttämään näitä DevNetin ilmaisia opiskelumateriaaleja. Kurkkaa esimerkiksi opetusmateriaali [DNA Centerin ohjelmotavuudesta](https://developer.cisco.com/learning/modules/dnac-rest-apis).
+
+Huomaa myös että DevNetillä on tarjolla paljon ilmaisia [Sandboxeja](https://devnetsandbox.cisco.com/), joilla voit testailla koodiasi!
