@@ -29,8 +29,6 @@ DNA Center tarjoaa kattavan määrän REST rajapintoja, ja uusissa softaversiois
 
 DNA Center vaatii rajapintojen käytössä authentication tokenin. Tämän hakemiseksi DNA Centeristä on oma rajapintakutsunsa, joka vaatii Base64 encodatun DNA Center käyttäjänimen ja salasanan. Näetkin tämän ensimmäisenä kohtana esimerkkikoodissa. Sen jälkeen voimme hyödyntää saamaamme tokenia muiden rajapintakutsujen mukana.
 
-![Authentication API](./authentication_api.png)
-
 ## Missä voin oppia lisää?
 
 DevNet tarjoaa learning labseja, joiden kautta voit oppia lisää aiheesta. Luo itsellesi ilmainen [DevNet-tunnus](https://developer.cisco.com), jonka jälkeen pääset käyttämään näitä DevNetin ilmaisia opiskelumateriaaleja. Kurkkaa esimerkiksi opetusmateriaali [DNA Centerin ohjelmotavuudesta](https://developer.cisco.com/learning/modules/dnac-rest-apis).
