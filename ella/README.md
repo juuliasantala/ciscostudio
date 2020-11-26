@@ -40,7 +40,7 @@ Jotta koodi toimisi, sinun tarvitsee tehdä pari alkuvalmistelua:
 6. Aja ohjelma komentoriviltä seuraavasti:
 ```
 export FLASK_APP=main.py
-flask run -p
+flask run
 ```
 7. Näet komentorivillä localhost portin jossa sovellus pyörii: navigoi sinne selaimellasi ja testaile, miten sovellus toimii :)
 
