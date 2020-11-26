@@ -44,7 +44,7 @@ Jotta voit käyttää Botia viestien lähettämiseen ja lukemiseen, tarvitsee bo
 
 **[Lue lisää Botin toiminnasta täältä](https://developer.webex.com/docs/bots)**
 
-## Viestin lähettäminen Webex chatiin rajapinnan kautta
+## Viestin lähettäminen Webex chattiin rajapinnan kautta
 
 [Esimerkkikoodissamme](./send_webex_message.py) käymme yksinkertaisen esimerkin, jossa voimme lähettää viestin Webexiin jostain toisesta sovelluksesta. Jos kurkkasit Webexin REST rajapinta -dokumentaatiota, huomasit varmaan että siellä on iso määrä erilaisia rajapintakutsuja joita voimme toteuttaa. Viestin lähettämiseksi haluamme käyttää *post message* rajapintaa. Näetkin esimerkkikoodissa, kuinka tämä voidaan tehdä yksinkertaisesti.
 
