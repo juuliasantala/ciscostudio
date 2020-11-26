@@ -8,7 +8,7 @@ Puheessa oli mukana myös Matti, joka ajoi start uppinsa sovellusta Ciscon reiti
 
 ![Sovelluksen elementit](./structure.png)
 
-ÄlyPakastin, joka on fiktiivinen esimerkki ja tarkoittaa käytännössä tässä käyttötapauksessa jotain IoT-laitetta tai sensoria, joka lähettää dataa toiminnastaan. Tätä varten tarvitsemme sovelluksen analysoimaan ja reagoimaan näihin viesteihin. Jotta sovellus voidaan asentaa lähelle itse tiedonlähdettä, on helppoa ja mukavaa huomata että moni Ciscon reititin ja kytkin tukee sovelluksen ajamista itse verkkolaitteessa, jolloin emme tarvitse erillistä tallennustilaa sovelluksellemme.
+ÄlyPakastin on fiktiivinen esimerkki ja tarkoittaa käytännössä tässä käyttötapauksessa jotain IoT-laitetta tai sensoria, joka lähettää dataa toiminnastaan. Tätä varten tarvitsemme sovelluksen analysoimaan ja reagoimaan näihin viesteihin. Jotta sovellus voidaan asentaa lähelle itse tiedonlähdettä, on helppoa ja mukavaa huomata että moni Ciscon reititin ja kytkin tukee sovelluksen ajamista itse verkkolaitteessa, jolloin emme tarvitse erillistä tallennustilaa sovelluksellemme.
 
 Toinen osa mikä oli olennainen esimerkissämme on kommunikointi Webexin kanssa. Voimme hyödyntää Webexin rajapintoja, ja näin esimerkiksi mahdollistaa käyttäjälle pyyntöjen kirjoittaminen webexin chattiin. Toisaalta, samalla voimme myös vastaanottaa varoituksia järjestelmältä suoraan Webexiin.
 
