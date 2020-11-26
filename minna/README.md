@@ -18,7 +18,7 @@ Hyödyntäen avoimia rajapintoja, tuomme tietoa yhteen käyttöliittymään kaik
 - [Cisco APIC & ACI](https://developer.cisco.com/docs/aci/#!introduction)
 - [Cisco SecureX](https://developer.cisco.com/site/security/)
 
-## Esimerkki kuinkaa DNA Centerin rajapintojen kanssa voidaan kommunikoida
+## Esimerkki kuinka DNA Centerin rajapintojen kanssa voidaan kommunikoida
 
 [Tässä esimerkki koodi](./dnacenter_apis.py) yhdestä listassa olevasta ratkaisusta, DNA Centeristä. Kyseisessa yksinkertaisessa Python koodissa haemme authentication tokenin, jonka jälkeen pystymme hakemaan tiedon verkon kaikista laitteista. Lopuksi tulostamme kustakin laitteesta mallin ja hostnamen. Huomaa että vaikka esimerkkikoodimme on kirjoitettu Pythonilla, eivät rajapinnat ole riippuvaisia käytettävästä kielestä, vaan tätä voidaan soveltaa myös muihin kieliin.
 
