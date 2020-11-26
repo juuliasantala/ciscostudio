@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ciscolan E-Koulu</title>
+    <meta charset="utf8">
+    <script src="https://code.s4d.io/widget-space/production/bundle.js"></script>
+    <link rel="stylesheet" href="https://code.s4d.io/widget-space/production/main.css">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+
+    <header>
+      Ciscolan E-Koulu
+    </header>
+
+  <main>
+
+    <div class="section">
+      <div id="welcome">
+        <h1>Moikka {{username}}!</h1>
+      </div>
+
+      <table id="homework">
+        <thead><tr><td colspan="2">Kotiläksyt</td></tr></thead>
+          {%for item in homework %}
+          <tr><td>{{item}}</td></tr>
+          {% endfor %}
+      </table>
+
+
+      <table>
+        <thead><tr><td colspan="2">Lukujärjestys tänään</td></tr></thead>
+        <tr><td>9.15-10</td><td>Matematiikka</td></tr>
+        <tr><td>10.15-11</td><td>Kuvataide</td></tr>
+        <tr><td>12.15-13</td><td>Äidinkieli</td></tr>
+      </table>
+      <div id="call_teacher">
+        <a href="call"><div class="button">Soita Opelle</div></a>
+      </div>
+    </div>
+
+    <div class="section">
+      <div id="chat"></div>
+    </div>
+
+  </main>
+
+  <script>
+
+      var token = '{{ token }}';
+      var room = '{{ room }}';
+
+      var widget_chat = document.getElementById('chat');
+      webex.widget(widget_chat).spaceWidget({
+        accessToken: token,
+        destinationId: room,
+        destinationType: 'spaceId',
+        spaceActivities: {"files":true,"meet":true,"message":true,"people":false},
+        initialActivity: 'message'
+      });
+
+  </script>
+
+  </body>
+</html>

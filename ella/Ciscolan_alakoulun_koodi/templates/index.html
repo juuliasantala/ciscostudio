@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>E-School Service</title>
+    <meta charset="utf8">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <header>
+    E-School Service
+    </header>
+    <main>
+      <div id="welcome">
+        Welcome to the E-School dashboard! Sign in with your name:<br/>
+        <form action="/login" method="post">
+          <input type="text" name="studentName">
+          <input type="submit">
+        </form>
+      </div>
+    </main>
+
+  </body>
+</html>

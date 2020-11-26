@@ -1,0 +1,37 @@
+<!doctype html>
+<html><head>
+    <title>E-School Service</title>
+    <meta charset="utf8">
+    <script src="https://code.s4d.io/widget-space/production/bundle.js"></script>
+    <link rel="stylesheet" href="https://code.s4d.io/widget-space/production/main.css">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <header>
+    E-School Service - CALL THE TEACHER
+    </header>
+  <main>
+
+    <div id="call"></div>
+    <a href="/dashboard"><div class="button">Back to the front page</div></a>
+
+  </main>
+
+  <script>
+
+        var token = '{{ token }}';
+        var teacher = '{{ teacher }}';
+
+        var widget_call = document.getElementById('call');
+        webex.widget(widget_call).spaceWidget({
+          accessToken: token,
+          destinationId: teacher,
+          destinationType: 'email',
+          spaceActivities: {"files":false,"meet":true,"message":false,"people":false},
+          initialActivity: 'meet'
+        });
+
+  </script>
+
+  </body>
+</html>
