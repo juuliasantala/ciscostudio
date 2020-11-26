@@ -32,10 +32,9 @@ def token(address, username, password):
 
     try:
         #SSL certification is turned off, but should be active in production environments
-        response= requests.post(url,auth=auth, headers=header, verify=False)
+        response = requests.post(url,auth=auth, headers=header, verify=False)
         print("service ticket status: ", response.status_code)
-        response_json=response.json()
-        token = response_json["Token"]
+        token = response.json()["Token"]
         return token
     except:
         print( "Error!")
@@ -51,9 +50,8 @@ def get_devices(token):
         "content-type" : "application/json"
         }
 
-    all_devices = []
     try:
-		#SSL certification is turned off, but should be active in production environments
+        #SSL certification is turned off, but should be active in production environments
         response = requests.get(url, headers=header, verify=False)
         return response.json()["response"]
 
