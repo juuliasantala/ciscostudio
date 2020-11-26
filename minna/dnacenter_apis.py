@@ -15,7 +15,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 #Credentials, these are Cisco Sandbox credentials, try out with the
-#sandbox or update to your own devices!
+#sandbox or update with your own DNA Center informstion!
 ADDRESS = "sandboxdnac.cisco.com"
 USERNAME = "devnetuser"
 PASSWORD = "Cisco123!"
